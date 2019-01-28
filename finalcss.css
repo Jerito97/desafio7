@@ -1,10 +1,13 @@
 p{color: rgb(255, 255, 255); font-family: 'Raleway', sans-serif;}
 h1{color: yellow; font-size: 24px}
-ul{color: yellow; list-style-type: none}
+ul{list-style: none;}
+
+
 body{
     background-image: url('https://wallpapertag.com/wallpaper/full/2/e/3/146605-star-wars-star-background-1920x1080-desktop.jpg');
     background-repeat: repeat;
-    color: white
+    color: white;
+
 }
 
 
@@ -18,8 +21,8 @@ table{
 
 ul.menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
     background-color: #333;
     
@@ -28,6 +31,7 @@ ul.menu {
   
 li {
     float: left;
+
   }
   
 li a {
@@ -36,6 +40,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
   }
   
 li a:hover {
@@ -46,16 +51,19 @@ li a:hover {
     display: none;
 	position: absolute;
     top: 35px;
+
 }
 
 li:hover ul#sub {
     display: block;
     top: 300px;
-    left: 89px
+    left: 89px;
+
+    
 }
 
 #sub a:hover {
-	background: rgba(17, 17, 17, 0.9);
+    background: rgba(17, 17, 17, 0.9);
 }
 #sub a {
 	background-color:rgba(31, 31, 31, 0.9);
@@ -176,13 +184,21 @@ p#trailer{
 
 /*Agranda las fotos de Personajes*/
 
-td img {
-    float: left;
+li img {
     transition: transform .5s, filter .5s;
   }
-td img:hover {
-    transform: scale(1.15);  
+li img:hover {
+    transform: scale(1.06);  
   }
   
 
+
+ul.charac{
+    float: left;
+    column-count: 9;
+    column-gap: 7px;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
 
